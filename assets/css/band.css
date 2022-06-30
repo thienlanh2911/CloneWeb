@@ -1,0 +1,26 @@
+#band {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.band-description {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.band-team {
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 0;
+}
+
+.band-member {
+    padding-bottom: 32px;
+}
+
+.band-member>img {
+    width: 60%;
+    border-radius: 4px;
+    vertical-align: middle;
+}

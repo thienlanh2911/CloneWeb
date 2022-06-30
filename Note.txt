@@ -1,0 +1,11 @@
+
+
+
+
+1: Căn giữa cho block có thuộc tính box-sizing: border-box mà không xài giá trị cứng line-height (header.css: 36) --> OK
+    flex + align-item
+2: Thẻ img display mặc định là inline nếu phía dưới thẻ img là 1 block hoặc inline-block thì sẽ bị đẩy ra 1 khoảng 
+do tính chất của inline, cách fix là chuyển thẻ img về block hoặc là xét vertical-align = middle;
+3: 2 block nằm cạnh nhau, block thứ 2 ở đầu có 1 thẻ p dc xét margin > 0 thì sẽ đẩy block đó xuống margin block 1
+ thay vì đẩy thẻ p xuống margin so với block chứa nó, có 3 cách fix, xét inline-block và width: 100% thẻ p hoặc
+ xét position: absolute cho thẻ p hoặc padding thẻ block 1 khoảng rất nhỏ (0.02px);

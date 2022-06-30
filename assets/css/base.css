@@ -1,0 +1,85 @@
+:root {
+    --header-height: 46px;
+    --sub-nav-height: 38px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+h2,
+h3 {
+    font-weight: 400;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 30px;
+    height: 45px;
+    line-height: 45px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+h2+p {
+    opacity: 0.60;
+    height: 22px;
+    line-height: 22px;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.h-center {
+    text-align: center;
+}
+
+.pad-8-16 {
+    padding: 8px 16px !important;
+}
+
+.pad-12-24 {
+    padding: 12px 24px !important;
+}
+
+.pad-32-16 {
+    padding: 32px 16px !important;
+}
+
+.pad-64-16 {
+    padding: 64px 16px !important;
+}
+
+.selected-button:hover,
+.selected-button:hover>a {
+    cursor: pointer;
+    background-color: #ccc !important;
+    color: #000 !important;
+}
+
+.app-black {
+    background-color: #000 !important;
+}
+
+.app-white {
+    background-color: #fff !important;
+}
+
+.desktop-hidden {
+    display: none !important;
+}

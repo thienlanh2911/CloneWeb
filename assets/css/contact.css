@@ -1,0 +1,61 @@
+#contact {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact>div {
+    padding: 32px 0px;
+    display: flex;
+    line-height: 1.5;
+}
+
+.contact-info {
+    font-size: 18px;
+    width: 50%;
+}
+
+.contact-info-icon {
+    padding: 0px 8px;
+    margin-left: -8px;
+    margin-right: 8px;
+    width: 30px;
+}
+
+.contact-form {
+    font-size: 15px;
+    width: 50%;
+}
+
+.contact-form form>div:first-child {
+    display: flex;
+    margin: 0 -8px;
+}
+
+.contact-form form .form-input-name,
+.contact-form form .form-input-email {
+    padding: 0px 8px;
+}
+
+.contact-form form .form-input-messenger {
+    margin: 8px 0px;
+}
+
+.contact-form input,
+.contact-form button {
+    line-height: 1.5;
+    padding: 8px;
+}
+
+.contact-form form input {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.contact-form button {
+    width: 72px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    margin: 8px 0px;
+    margin-left: calc(100% - 72px);
+}

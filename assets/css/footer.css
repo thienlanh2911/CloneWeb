@@ -1,0 +1,17 @@
+#app-footer {
+    background-color: #f1f1f1;
+    font-size: 24px;
+    opacity: 0.6;
+}
+
+#app-footer i {
+    line-height: 1.5;
+}
+
+#app-footer i:hover {
+    opacity: 0.6;
+}
+
+#app-footer a {
+    color: inherit;
+}

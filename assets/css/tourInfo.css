@@ -1,0 +1,75 @@
+#tourInfo {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#tourInfo>h2,
+#tourInfo>p {
+    color: #fff;
+}
+
+#tourInfo>ul {
+    border: 1px solid #ccc;
+    color: #757575;
+}
+
+#tourInfo li {
+    display: flex;
+    align-items: center;
+    height: 39px;
+    border-bottom: 1px solid #ddd;
+}
+
+#tourInfo li:last-child {
+    justify-content: space-between;
+}
+
+#tourInfo li:last-child>span {
+    background: #000;
+    line-height: 22px;
+    border-radius: 50%;
+}
+
+#tourInfo span {
+    margin: 0px 16px;
+    padding: 0 8px;
+    background-color: #f44336;
+    color: #fff;
+    line-height: 22px;
+}
+
+#tourInfo .tour-places {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    margin: 0px -8px 32px;
+}
+
+#tourInfo .tour-place-item {
+    margin: 0px 8px;
+}
+
+#tourInfo .tour-places img {
+    width: 100%;
+    display: block;
+}
+
+#tourInfo .tour-places img:hover {
+    opacity: 0.60;
+}
+
+.tour-place-item-info {
+    padding: 0.01em 16px;
+}
+
+.tour-place-time {
+    opacity: 0.6;
+}
+
+.tour-place-item-info .buy-ticket-button {
+    color: #fff;
+    background-color: #000;
+    border: none;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
